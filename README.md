@@ -2,7 +2,8 @@
 
 ## What
 
-winftprecon is a legacy Windows FTP service `SITE STATS` poller for enumeration purposes
+winftprecon is a legacy Windows FTP service `SITE STATS` poller for enumeration purposes.
+
 When pentesting a range of legacy servers especially for older internal networks such as industrial networks, Microsoft FTP servers might show up where you have to find out which ones have the most activity for further attack. Other than doing IP ID increment analysis to see which servers are active when, legacy Microsoft FTP servers will keep track of what FTP commands are being used and allows interrogation of these stats per command. 
 
 This means that a pentester or would be attacker would be able to find out what commands are being used the most and when. The attacker will know when uploads, downloads, deleting etc are being performed, when and how much. Based on this information the attacker knows what to attack further and where to focus their efforts, budget and time.
